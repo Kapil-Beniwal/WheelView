@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FD386475">
+
+    <me.sujanpoudel.wheelview.WheelView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/wheelview"
+        android:layout_margin="16dp"
+        app:wheelDividerStrokeWidth="4dp"
+        app:wheelSelectedArcBackgroundColor="#27596A"
+        app:wheelCenterIcon="@drawable/ic_baseline_add_24"
+        app:wheelCenterIconTint="@android:color/white"
+        app:wheelAnchorAngle="270"
+        app:wheelStartAngle="315"
+        app:wheelTextSize="16sp"
+        app:wheelSelectedTextColor="@android:color/white"
+        app:wheelTextColor="@android:color/black"
+        app:wheelArcBackgroundColor="@color/colorAccent"
+        app:wheelAnimationDuration="800"
+        app:wheelMode="ANIMATE_TO_ANCHOR"/>
+
+</RelativeLayout>
